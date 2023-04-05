@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import ScreenShots from './pages/ScreenShots';
-import CapturingVideos from './pages/CapturingVideos';
+import WebcamCapture from './pages/WebcamCapture';
 import ShowingAllCameras from './pages/ShowingAllCameras';
 import Mobile from './pages/Mobile';
 import Cam from './pages/Cam';
@@ -23,7 +23,7 @@ const router = createBrowserRouter([
         {index: true, element: <Home/>},
         {path: 'Cam',element: <Cam/>},
         {path: 'ScreenShots', element: <ScreenShots/>},
-        {path: 'CaputringVideos', element: <CapturingVideos/>},
+      { path: 'WebcamCapture', element: <WebcamCapture />},
         {path: 'ShowingAllCameras', element: <ShowingAllCameras/>},
         {path: 'Mobile', element: <Mobile/>},
         {path: 'FiltersWithCloudinary',element: <FiltersWithCloudinary/>}
