@@ -1,13 +1,14 @@
 import React from "react";
-import Webcam from "react-webcam";
-import "./App.css";
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
-function App() {
+export default function App() {
+
   return (
-    <div className="App">
-      <Webcam />
-    </div>
+    <>
+      <Navbar/>
+      <Outlet/>
+    </>
   );
 }
 
-export default App;
