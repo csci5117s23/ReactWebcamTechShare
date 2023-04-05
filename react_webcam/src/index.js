@@ -23,7 +23,7 @@ const router = createBrowserRouter([
         {index: true, element: <Home/>},
         {path: 'Cam',element: <Cam/>},
         {path: 'ScreenShots', element: <ScreenShots/>},
-      { path: 'WebcamCapture', element: <WebcamCapture />},
+        {path: 'WebcamCapture', element: <WebcamCapture />},
         {path: 'ShowingAllCameras', element: <ShowingAllCameras/>},
         {path: 'Mobile', element: <Mobile/>},
         {path: 'FiltersWithCloudinary',element: <FiltersWithCloudinary/>}

@@ -20,7 +20,7 @@ export default function Navbar() {
             <Link to = "/ScreenShots"> ScreenShots</Link>
           </li>
           <li>
-            <Link to= "/CaputringVideos"> Capturing Videos</Link>
+            <Link to= "/WebcamCapture"> Capturing Videos</Link>
           </li>
           <li>
             <Link to = "/ShowingAllCameras">Showing All Cameras</Link>
